@@ -35,7 +35,7 @@ const certEng = ["Responsive web desing on FCC",
   "Relation databases on FCC",
   "JavaScript from zero to hero on Udemy",
   "SQL queries for beginners on Udemy",
-  "Tailwind CSS in 1 hour: Master Tailwind CSS Quickly on Udemy"
+  "Tailwind CSS in 1 hour: Master Tailwind CSS Quickly on Udemyy"
 ]
 
     const logos = [logoUno,logoDos,logoTres,logoCuatro,logoCinco,logoSeis,logoSiete,logoOcho,logoNueve,logoDiez]
