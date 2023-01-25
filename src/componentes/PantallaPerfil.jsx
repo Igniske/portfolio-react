@@ -18,7 +18,8 @@ function PantallaPerfil({lang}){
 "https://www.freecodecamp.org/certification/Igniske/relational-database-v8",
 "https://www.udemy.com/certificate/UC-c5c8c133-456e-4df3-8458-fac71a16d62a/",
 "https://www.udemy.com/certificate/UC-91b1ec01-0ce2-4f6a-a23b-93fc66730a32/",
-"https://www.udemy.com/certificate/UC-788f7534-8599-4fe8-81ea-c1f9701c8301/" ]
+"https://www.udemy.com/certificate/UC-788f7534-8599-4fe8-81ea-c1f9701c8301/",
+"https://www.udemy.com/certificate/UC-e2b97c1d-563a-4c03-88cd-760b694b30de/" ]
 
   const certEsp = ["Diseño web adaptable en FCC", 
   "Algoritmos y estructura de datos con JavaScript en FCC",
@@ -26,7 +27,8 @@ function PantallaPerfil({lang}){
   "Bases de datos relacionales en FCC",
   "Curso de JavaScript de cero a heroe en Udemy",
   "Consultas en SQL para principiantes en Udemy",
-  "Tailwind CSS en 1 hora: masteriza Tailwind CSS rapidamente en Udemy"
+  "Tailwind CSS en 1 hora: masteriza Tailwind CSS rapidamente en Udemy",
+  "Bootcamp de Git y Github para desarrolladores"  
 ]
 
 const certEng = ["Responsive web desing on FCC",
@@ -35,7 +37,8 @@ const certEng = ["Responsive web desing on FCC",
   "Relation databases on FCC",
   "JavaScript from zero to hero on Udemy",
   "SQL queries for beginners on Udemy",
-  "Tailwind CSS in 1 hour: Master Tailwind CSS Quickly on Udemy"
+  "Tailwind CSS in 1 hour: Master Tailwind CSS Quickly on Udemy",
+  "Practical Git & Github Bootcamp for Developers"
 ]
 
     const logos = [logoUno,logoDos,logoTres,logoCuatro,logoCinco,logoSeis,logoSiete,logoOcho,logoNueve,logoDiez]
