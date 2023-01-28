@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* Target the scrollbar container */
+::-webkit-scrollbar {
+  /* Change the background color */
+  background-color: #F5F5F5;
+  /* Change the width */
+  width: 15px;
+}
+
+/* Target the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  /* Change the background color */
+  background-color: #33304e;
+  /* Change the border-radius */
+  border-radius: 9999px;
+}
 
 
 

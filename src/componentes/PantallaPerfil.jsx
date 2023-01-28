@@ -11,6 +11,7 @@ import logoNueve from '../media/bash.svg'
 import logoDiez from '../media/nodejs.svg'
 
 function PantallaPerfil({lang}){
+  
 
     const certLinks = ["https://www.freecodecamp.org/certification/Igniske/responsive-web-design",
   "https://www.freecodecamp.org/certification/Igniske/javascript-algorithms-and-data-structures",
