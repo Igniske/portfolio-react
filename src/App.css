@@ -221,12 +221,33 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 }
 
-.bg-inicio{
-    background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+.bg-inicio {
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: bg-inicio-animation 12s ease-in-out infinite; /* animate the background property over 8 seconds, in a linear fashion, and repeat indefinitely */
+    background-size: 200% 200%;
 }
+  
+  @keyframes bg-inicio-animation{
+    100% {
+      background-position: 0% 100%; /* start position for the first gradient */
+    }
+    75% {
+        background-position: 50% 75%; 
+      }
+    50% {
+      background-position: 100% 50%; /* end position for the first gradient and start position for the second gradient */
+    }
+
+    25% {
+        background-position: 50% 25%; 
+      }
+
+    0% {
+      background-position: 25% 0%; /* end position for the second gradient, back to the initial state */
+    }
+  }
 
 .bg-contacto{
     background: #0f0c29;  /* fallback for old browsers */
@@ -236,12 +257,24 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 }
 
-.bg-proyectos{
-    background: #16222A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
+.bg-proyectos {
+    animation: bg-proyectos-animation 8s ease-in-out infinite; /* animate the background property over 8 seconds, ease-in-out and repeat indefinitely */
+    background: linear-gradient(to right, #3A6073, #16222A); /* initial gradient */
+    background-size: 200% 200%; /* double the size of the background image */
+  }
+  
+  @keyframes bg-proyectos-animation {
+    0% {
+      background-position: 0% 50%; /* start position for the first gradient */
+    }
+    50% {
+      background-position: 100% 50%; /* end position for the first gradient and start position for the second gradient */
+    }
+    100% {
+      background-position: 0% 50%; /* end position for the second gradient, back to the initial state */
+    }
+  }
 
 .titulo{
     font-family: "Roboto", sans-serif;
@@ -326,4 +359,8 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
 
  .point{
     cursor: pointer;
+ }
+
+ .no-deco{
+    list-style-type: none;
  }

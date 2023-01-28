@@ -44,9 +44,9 @@ const certEng = ["Responsive web desing on FCC",
     const logos = [logoUno,logoDos,logoTres,logoCuatro,logoCinco,logoSeis,logoSiete,logoOcho,logoNueve,logoDiez]
 
     function mapping(){
-        const listMap = certLinks.map((val, index) =><li key={"cert" + index}><a key={"link" + index} href={val} target="_blank">{(lang === true ? certEsp[index] : certEng[index])}</a></li>
+        const listMap = certLinks.map((val, index) =><li key={"cert" + index}><a key={"link" + index} href={val} target="_blank" rel="noreferrer">{(lang === true ? certEsp[index] : certEng[index])}</a></li>
          )
-         return <ul key="lista" className="certificados">{listMap}</ul>
+         return <ul key="lista"  className="certificados no-deco">{listMap}</ul>
     }
 
     function mapLogos(){
@@ -79,7 +79,7 @@ const certEng = ["Responsive web desing on FCC",
           </div>
 
         <div className="accordion bg-inicio spc-y" id="accordionPanelsStayOpenExample">
-          <div className="accordion-item bg-inicio">
+          <div className="accordion-item bg-inicio text-center bg-gray">
             <h2 className="accordion-header" id="panelsStayOpen-headingOne">
               <button id="accord-1" className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
               {(lang === true ? "Mis certificaciones" : "My certifications")}
